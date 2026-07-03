@@ -22,7 +22,7 @@ steps:
     command: 'init'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
     backendServiceArm: $(serviceConnection)
-    backendAzureRmResourceGroupName: 'MyResourceGroup'
+    backendAzureRmResourceGroupName: 'MyResourceGroup-01'
     backendAzureRmStorageAccountName: 'khushihatimuria'
     backendAzureRmContainerName: 'tfstate'
     backendAzureRmKey: 'terraform.tfstate'

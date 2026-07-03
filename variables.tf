@@ -1,14 +1,48 @@
-variable "resource_group_name" {}
-variable "location" {}
-variable "subscription_id" {}
+variable "subscription_id" {
+  type = string
+}
 
-variable "vnet_name" {}
-variable "subnet_name" {}
+variable "resource_group_name" {
+  type = string
+}
 
-variable "vm_name" {}
-variable "vm_size" {}
+variable "location" {
+  type = string
+}
 
-variable "admin_username" {}
-variable "admin_password" {}
+variable "vnet_name" {
+  type = string
+}
 
-variable "acr_name" {}
+variable "subnet_name" {
+  type = string
+}
+
+variable "public_ip_name" {
+  type = string
+}
+
+variable "nic_name" {
+  type = string
+}
+
+variable "vm_name" {
+  type = string
+}
+
+variable "vm_size" {
+  type = string
+}
+
+variable "admin_username" {
+  type = string
+}
+
+variable "admin_password" {
+  type = string
+  sensitive = true
+}
+
+variable "acr_name" {
+  type = string
+}

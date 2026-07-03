@@ -1,6 +1,6 @@
 subscription_id = "31253df5-e027-43d8-8e72-5edcfdc0945f"
 
-resource_group_name = "khushi-demo-rg01"
+resource_group_name = "khushi-demo-rg023"
 
 location = "Central India"
 
